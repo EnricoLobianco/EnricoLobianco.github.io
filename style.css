@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+        
+        width: 100%;
+        height: 100vh;
+        background-color: whitesmoke;
+        background-position: center;
+        background-size: cover;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+
+
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+.menuicon{
+    width: 40px;
+    cursor: pointer;
+    margin: 30px;
+    margin-right: -20;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #00d8e0;
+    font-size: 20px;
+}
+.ivvh{
+    text-decoration: none;
+    color: #00d8e0;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.ivvh p {
+    font-size: 10px;
+    margin-top: -5px;
+}
+
+
+.gal ul{
+    width: 880px;
+    list-style: none;
+    display: flex;
+    margin: 100px auto;
+}
+.lbox{
+    visibility: hidden;
+    opacity: 0;
+
+}
+.min{
+    width: 200px;
+    padding: 10px;
+
+}
+.lbox:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10,10,10,.7);
+    position: fixed;
+}
+.box_img{
+    width: 1000px;
+    margin: 150px auto;
+}
+.btn{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#prev{
+    left: 5%;
+    top: 45%;
+}
+#next{
+    right: 5%;
+    top: 45%;
+}
+#close{
+    top: 2%;
+    right: 2%;
+}
+.box_img img{
+    opacity: 0;
+}
+.lbox:target .box_img img{
+    opacity: 1;
+    transition: opacity 0.9s linear;
+}
+.texto{
+    padding-top: 5%;
+    padding-left:  5%;
+   
+}
+h2{
+    font-size: 50;
+    color: #004e50;
+    padding-bottom: 20px;
+    padding-right: 30%;
+}
+h3{
+    font-size: x-large;
+    padding-top: 40px;
+    color: #004e50;
+    padding-right: 50%;
+}
+h4{
+    padding-top: 10px;
+    color: #00a3a8;
+    padding-right: 50%;
+}
+.projetos{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+
+
+
